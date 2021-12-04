@@ -1,18 +1,7 @@
 defmodule Aoc do
-  @moduledoc """
-  Documentation for `Aoc`.
-  """
+  alias Aoc.Puzzles.SonarSweep
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Aoc.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def run do
+    SonarSweep.run()
   end
 end
