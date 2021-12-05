@@ -1,21 +1,3 @@
-# Aoc
-
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `aoc` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:aoc, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/aoc](https://hexdocs.pm/aoc).
-
+Advent of Code 2021
+ - [Day 1: Sonar Sweep](https://github.com/HantonSacu/aoc_2021/blob/master/lib/aoc/puzzles/sonar_sweep.ex)
+ - [Day 2: Dive!](https://github.com/HantonSacu/aoc_2021/blob/master/lib/aoc/puzzles/dive.ex)
