@@ -5,7 +5,7 @@ defmodule Aoc.Helpers do
     "#{fluff(length)}\n#{puzzle}\n#{fluff(length)}"
   end
 
-  def solution(module, part, test?) do
+  def solution(module, part, test? \\ false) do
     solution = module |> name() |> path(test?) |> File.read() |> solve(part, module)
     if test?, do: "#{solution} [TEST]", else: solution
   end
