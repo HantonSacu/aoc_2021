@@ -1,7 +1,8 @@
 defmodule Aoc do
-  alias Aoc.Puzzles.SonarSweep
+  alias Aoc.Puzzles.HydrothermalVenture
 
   def run do
-    SonarSweep.run()
+    # SonarSweep.run()
+    HydrothermalVenture.run()
   end
 end
