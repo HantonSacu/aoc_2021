@@ -12,6 +12,8 @@ defmodule Aoc.Helpers do
 
   def parse(lines), do: Enum.map(lines, &String.to_integer(&1))
 
+  def transpose(matrix), do: matrix |> List.zip() |> Enum.map(&Tuple.to_list/1)
+
   defp name(module), do: module |> Atom.to_string() |> String.split(".") |> List.last()
   defp fluff(length), do: Enum.reduce(0..(length - 1), "", fn _e, acc -> "##{acc}" end)
 
